@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ViT"
+version = "0.1.0"
+description = "Implementation of Vision Transformer (ViT) in PyTorch."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Hamza Khan", email = "hamxa678@gmail.com"}
+]
+
+dependencies = [
+  # "requests>=2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/hamxa678/ViT"
