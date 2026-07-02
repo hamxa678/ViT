@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vit-hk"
-version = "0.1.1"
+version = "0.1.2"
 description = "Implementation of Vision Transformer (ViT) in PyTorch."
 readme = "README.md"
 requires-python = ">=3.8"
