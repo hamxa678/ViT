@@ -12,10 +12,12 @@ license = {text = "MIT"}
 authors = [
   {name = "Hamza Khan", email = "hamxa678@gmail.com"}
 ]
-
 dependencies = [
-  # "requests>=2.0"
+  "torch>=2.0"
 ]
 
 [project.urls]
 Homepage = "https://github.com/hamxa678/ViT"
+
+[tool.setuptools.packages.find]
+where = ["src"]
